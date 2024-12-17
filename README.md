@@ -7,7 +7,7 @@
 - Run `test-runner.py` to validate your functions or classes.
 - Upload `asgmt.py` to [NTU COOL](https://cool.ntu.edu.tw).
 
-## 01. Define a class `ManipulateArgs` which instantiates objects with three methods `sort_asc()`, `sort_desc()` and `reverse()`.
+## 01. Define a class `ManipulateArgs` which instantiates object takes `*args` with three methods `sort_asc()`, `sort_desc()` and `reverse()`.
 
 ```python
 class ManipulateArgs:
@@ -117,7 +117,7 @@ class AdvancedSequenceGenerator:
     ### END SOLUTION
 ```
 
-## 06. Define a class `KeyValueMethods` which instantiates objects takes `**kwargs` with 3 methods `reverse()`, `to_upper()`, and `to_lower()`.
+## 06. Define a class `KeyValueMethods` which instantiates object takes `**kwargs` with 3 methods `reverse()`, `to_upper()`, and `to_lower()`.
 
 ```python
 class KeyValueMethods:
